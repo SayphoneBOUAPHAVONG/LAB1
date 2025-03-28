@@ -1,5 +1,8 @@
 ﻿
 //Этот файл содержит классы. Инициализация данных С функциями создания исходных данных для танков, агрегатов и заводов.
+using LAB1.Models;
+
+namespace LAB1;
 public static class DataInitialization
 {
     public static Tank[] GetTanks()

@@ -1,8 +1,14 @@
-﻿//UtilityMethods С функциями поиска и расчета данных
+﻿
+//Поиск подразделений и заводов или расчет общего количества
+
+using LAB1.Models;
+
+namespace LAB1;
 public static class UtilityMethods
 {
     public static Unit FindUnit(Unit[] units, Tank[] tanks, string tankName)
     {
+        // LINQ
         var tank = tanks.FirstOrDefault(t => t.Name == tankName);
         if (tank != null)
         {

@@ -1,12 +1,13 @@
-﻿using System;
+﻿
+using System;
 using System.Linq;
-
+namespace LAB1;
 public class Program
 {
     static void Main(string[] args)
     {
         //Для получения данных о резервуарах, отделах и заводах
-        var tanks = DataInitialization.GetTanks();//
+        var tanks = DataInitialization.GetTanks();// фываф
         var units = DataInitialization.GetUnits();
         var factories = DataInitialization.GetFactories();
 
